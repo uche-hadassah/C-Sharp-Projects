@@ -10,6 +10,8 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hadassah is a Genius");
+            Console.ReadLine();
         }
     }
 }
