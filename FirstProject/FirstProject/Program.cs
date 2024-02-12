@@ -10,10 +10,11 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("   /|");
-            Console.WriteLine("  / |");
-            Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+            string name = "Hadassah";
+            int age = 18; 
+            Console.WriteLine("Hi,My name is " + name);
+            Console.WriteLine("I am " + age + " years old");
+            Console.WriteLine("My full name is Uche " + name);
             Console.ReadLine();
         }
     }
