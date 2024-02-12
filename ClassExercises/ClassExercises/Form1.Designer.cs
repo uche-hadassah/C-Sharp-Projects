@@ -1,4 +1,4 @@
-﻿namespace FormsTest_1
+﻿namespace ClassExercises
 {
     partial class Form1
     {
@@ -40,39 +40,40 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(145, 43);
+            label1.BackColor = SystemColors.ControlLightLight;
+            label1.Font = new Font("Sans Serif Collection", 8.999999F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(88, 34);
             label1.Name = "label1";
-            label1.Size = new Size(53, 25);
+            label1.Size = new Size(154, 44);
             label1.TabIndex = 0;
-            label1.Text = "Label";
-            label1.Click += label1_Click_2;
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(112, 96);
+            button1.Location = new Point(111, 81);
             button1.Name = "button1";
-            button1.Size = new Size(135, 34);
+            button1.Size = new Size(112, 34);
             button1.TabIndex = 1;
             button1.Text = "RED";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_2;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(112, 157);
+            button2.Location = new Point(111, 150);
             button2.Name = "button2";
-            button2.Size = new Size(135, 34);
+            button2.Size = new Size(112, 34);
             button2.TabIndex = 2;
             button2.Text = "GREEN";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(112, 222);
+            button3.Location = new Point(111, 219);
             button3.Name = "button3";
-            button3.Size = new Size(135, 34);
+            button3.Size = new Size(112, 34);
             button3.TabIndex = 3;
             button3.Text = "BLUE";
             button3.UseVisualStyleBackColor = true;
@@ -80,45 +81,49 @@
             // 
             // button4
             // 
-            button4.Location = new Point(112, 287);
+            button4.Location = new Point(111, 290);
             button4.Name = "button4";
-            button4.Size = new Size(135, 34);
+            button4.Size = new Size(112, 34);
             button4.TabIndex = 4;
             button4.Text = "YELLOW";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(112, 351);
+            button5.Location = new Point(111, 355);
             button5.Name = "button5";
-            button5.Size = new Size(135, 34);
+            button5.Size = new Size(112, 34);
             button5.TabIndex = 5;
             button5.Text = "BROWN";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(112, 419);
+            button6.Location = new Point(111, 421);
             button6.Name = "button6";
-            button6.Size = new Size(135, 34);
+            button6.Size = new Size(112, 34);
             button6.TabIndex = 6;
             button6.Text = "BLACK";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
-            button7.Location = new Point(69, 477);
+            button7.Location = new Point(79, 497);
             button7.Name = "button7";
-            button7.Size = new Size(209, 46);
+            button7.Size = new Size(175, 48);
             button7.TabIndex = 7;
             button7.Text = "Exit";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(369, 562);
+            ClientSize = new Size(355, 589);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -130,7 +135,6 @@
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
