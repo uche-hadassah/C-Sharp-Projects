@@ -10,11 +10,12 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
-            string name = "Hadassah";
-            int age = 18; 
-            Console.WriteLine("Hi,My name is " + name);
-            Console.WriteLine("I am " + age + " years old");
-            Console.WriteLine("My full name is Uche " + name);
+            string name;
+            int age;
+            Console.Write("Enter Your Name: ");
+            name = Console.ReadLine();
+            Console.Write("Enter Your Age: ");
+            age = Console.Read();
             Console.ReadLine();
         }
     }
