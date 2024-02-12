@@ -11,11 +11,8 @@ namespace FirstProject
         static void Main(string[] args)
         {
             string name;
-            int age;
-            Console.Write("Enter Your Name: ");
-            name = Console.ReadLine();
-            Console.Write("Enter Your Age: ");
-            age = Console.Read();
+            int age = Convert.ToInt32("18");
+            Console.WriteLine(age + 2);
             Console.ReadLine();
         }
     }
