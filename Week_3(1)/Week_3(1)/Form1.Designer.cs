@@ -55,11 +55,13 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ImageAlign = ContentAlignment.TopCenter;
             label1.Location = new Point(157, 60);
             label1.Name = "label1";
             label1.Size = new Size(59, 25);
             label1.TabIndex = 1;
             label1.Text = "label1";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             label1.Click += label1_Click;
             // 
             // button2
