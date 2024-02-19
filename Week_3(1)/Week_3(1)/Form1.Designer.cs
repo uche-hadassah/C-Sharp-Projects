@@ -1,4 +1,4 @@
-﻿namespace ClassExercises
+﻿namespace Week_3_1_
 {
     partial class Form1
     {
@@ -29,122 +29,176 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            label1 = new Label();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
-            label1 = new Label();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(111, 81);
+            button1.Location = new Point(56, 189);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 1;
-            button1.Text = "RED";
+            button1.Size = new Size(128, 44);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(157, 60);
+            label1.Name = "label1";
+            label1.Size = new Size(59, 25);
+            label1.TabIndex = 1;
+            label1.Text = "label1";
+            label1.Click += label1_Click;
+            // 
             // button2
             // 
-            button2.Location = new Point(111, 150);
+            button2.Location = new Point(56, 253);
             button2.Name = "button2";
-            button2.Size = new Size(112, 34);
+            button2.Size = new Size(128, 44);
             button2.TabIndex = 2;
-            button2.Text = "GREEN";
+            button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(111, 219);
+            button3.Location = new Point(56, 322);
             button3.Name = "button3";
-            button3.Size = new Size(112, 34);
+            button3.Size = new Size(128, 44);
             button3.TabIndex = 3;
-            button3.Text = "BLUE";
+            button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(111, 290);
+            button4.Location = new Point(214, 162);
             button4.Name = "button4";
-            button4.Size = new Size(112, 34);
+            button4.Size = new Size(111, 51);
             button4.TabIndex = 4;
-            button4.Text = "YELLOW";
+            button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(111, 355);
+            button5.Location = new Point(214, 227);
             button5.Name = "button5";
-            button5.Size = new Size(112, 34);
+            button5.Size = new Size(111, 51);
             button5.TabIndex = 5;
-            button5.Text = "BROWN";
+            button5.Text = "button5";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(111, 421);
+            button6.Location = new Point(214, 292);
             button6.Name = "button6";
-            button6.Size = new Size(112, 34);
+            button6.Size = new Size(111, 51);
             button6.TabIndex = 6;
-            button6.Text = "BLACK";
+            button6.Text = "button6";
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
             // button7
             // 
-            button7.Location = new Point(79, 497);
+            button7.Location = new Point(214, 353);
             button7.Name = "button7";
-            button7.Size = new Size(175, 48);
+            button7.Size = new Size(111, 51);
             button7.TabIndex = 7;
-            button7.Text = "Exit";
+            button7.Text = "button7";
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
             // 
-            // label1
+            // button8
             // 
-            label1.BackColor = SystemColors.ControlLightLight;
-            label1.Font = new Font("Sans Serif Collection", 8.999999F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(88, 34);
-            label1.Name = "label1";
-            label1.Size = new Size(154, 44);
-            label1.TabIndex = 0;
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click;
+            button8.Location = new Point(364, 148);
+            button8.Name = "button8";
+            button8.Size = new Size(151, 51);
+            button8.TabIndex = 11;
+            button8.Text = "button8";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(364, 218);
+            button9.Name = "button9";
+            button9.Size = new Size(151, 51);
+            button9.TabIndex = 10;
+            button9.Text = "button9";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(364, 290);
+            button10.Name = "button10";
+            button10.Size = new Size(151, 51);
+            button10.TabIndex = 9;
+            button10.Text = "button10";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(364, 367);
+            button11.Name = "button11";
+            button11.Size = new Size(151, 51);
+            button11.TabIndex = 8;
+            button11.Text = "button11";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(355, 589);
+            ClientSize = new Size(584, 450);
+            Controls.Add(button8);
+            Controls.Add(button9);
+            Controls.Add(button10);
+            Controls.Add(button11);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label1);
+            Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
         private Button button1;
+        private Label label1;
         private Button button2;
         private Button button3;
         private Button button4;
         private Button button5;
         private Button button6;
         private Button button7;
-        private Label label1;
+        private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
     }
 }
