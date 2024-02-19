@@ -26,7 +26,7 @@ namespace Week_3_1_
 
         private void button1_Click(object sender, EventArgs e)
         {
-label1.ForeColor = Color.Red;
+            label1.ForeColor = Color.Red;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,37 +41,37 @@ label1.ForeColor = Color.Red;
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            label1.Font = new Font(label1.Font.FontFamily, 10L);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            label1.Font = new Font(label1.Font.FontFamily, 15L);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            label1.Font = new Font(label1.Font.FontFamily, 20L);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            label1.Font = new Font(label1.Font.FontFamily, 25L);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            label1.Text = "Uche Hadassah";
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            label1.Text = "Computer Science";
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            label1.Text = "";
         }
 
         private void button11_Click(object sender, EventArgs e)
