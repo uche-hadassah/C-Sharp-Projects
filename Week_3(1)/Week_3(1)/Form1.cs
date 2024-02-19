@@ -16,6 +16,7 @@ namespace Week_3_1_
             button9.Text = "My Course";
             button10.Text = "Clear";
             button11.Text = "Exit";
+            label1.Text = "COMP-213 Visual programming";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,17 +26,17 @@ namespace Week_3_1_
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+label1.ForeColor = Color.Red;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            label1.ForeColor = Color.Green;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            label1.ForeColor = Color.Blue;
         }
 
         private void button4_Click(object sender, EventArgs e)
